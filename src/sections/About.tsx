@@ -47,7 +47,7 @@ function About() {
            embrace challenges, and value collaborative teamwork
           </p>
           <p className="about-grid-info-text">
-            Here are a few technologies I’ve been working with recently:
+            Here are a few technologies I&apos;ve been working with recently:
           </p>
           <ul className="about-grid-info-list">
             <li className="about-grid-info-list-item">Typescript</li>
