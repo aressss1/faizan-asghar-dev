@@ -28,14 +28,14 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Greetings! I'm Faizan, a dedicated creator deeply passionate
+            Greetings! I&apos;m Faizan, a dedicated creator deeply passionate
             about shaping innovative digital landscapes. My venture into 
             the realm of web development began in 2021 when I brought 
             <span className="link">SocioMedia</span> to life—an inspiring
             social media app crafted with the expertise of React and Node.js.
           </p>
           <p className="about-grid-info-text">
-            Fast-forward to the present day, I've become a maestro in crafting
+            Fast-forward to the present day, I&apos;ve become a maestro in crafting
             high-quality solutions that not only exceed my clients&apos;
             <span className="link">expectations</span> but also supercharge their growth in no time. 
             My expertise spans front-end and back-end technologies, enabling me
