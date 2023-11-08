@@ -57,7 +57,7 @@ function About() {
         <div className="about-grid-photo">
           <div className="overlay"></div>
           <div className="overlay-border"></div>
-          <div className="  ">
+          <div className="about-grid-photo-container">
             <Image src="/Profile.png" alt="profile" fill />
           </div>
         </div>
