@@ -28,56 +28,45 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Bonjour! My name is Kishan, and I am passionate about creating
-            digital content for the web. My interest in web development was
-            sparked in 2016 when I created my first project called Lavish, a
-            social media app built using React and Node.js.
+            Greetings! I'm Faizan, a dedicated creator deeply passionate
+            about shaping innovative digital landscapes. My venture into 
+            the realm of web development began in 2021 when I brought 
+            <span className="link">SocioMedia</span> to life—an inspiring
+            social media app crafted with the expertise of React and Node.js.
           </p>
           <p className="about-grid-info-text">
-            Fast-forward to today, I specialize in designing and developing
-            high-quality solutions that delight our clients and exceed their
-            expectations at{" "}
-            <Link href="https://rapidops.com" className="link" target="_blank">
-              Rapidops.
-            </Link>
+            Fast-forward to the present day, I've become a maestro in crafting
+            high-quality solutions that not only exceed my clients&apos;
+            <span className="link">expectations</span> but also supercharge their growth in no time. 
+            My expertise spans front-end and back-end technologies, enabling me
+            to create end-to-end solutions that excel in both form and function.
           </p>
 
           <p className="about-grid-info-text">
-            Additionally, I share my knowledge and passion with the world
-            through my YouTube channel, where I demonstrate how to build
-            full-stack applications.
-          </p>
-          <p className="about-grid-info-text">
-            I am also working on a new project called&nbsp;
-            <Link
-              className="link"
-              target="_blank"
-              href="https://frontendvita.com"
-            >
-              FrontendVita,
-            </Link>
-            &nbsp;aimed at enhancing frontend development skills.
+          My approach is rooted in aligning technical solutions with your business
+           objectives to boost efficiency and ROI. I thrive on problem-solving, 
+           embrace challenges, and value collaborative teamwork
           </p>
           <p className="about-grid-info-text">
             Here are a few technologies I’ve been working with recently:
           </p>
           <ul className="about-grid-info-list">
-            <li className="about-grid-info-list-item">React</li>
-            <li className="about-grid-info-list-item">React Native</li>
-            <li className="about-grid-info-list-item">Next.js</li>
             <li className="about-grid-info-list-item">Typescript</li>
-            <li className="about-grid-info-list-item">Redux Toolkit</li>
-            <li className="about-grid-info-list-item">Node.js</li>
-            <li className="about-grid-info-list-item">Elasticsearch</li>
-            <li className="about-grid-info-list-item">Kibana</li>
-            <li className="about-grid-info-list-item">CSS</li>
+            <li className="about-grid-info-list-item">React</li>
+            <li className="about-grid-info-list-item">Next.js</li>
+            <li className="about-grid-info-list-item">Tailwind CSS</li>
+            <li className="about-grid-info-list-item">Prisma</li>
+            <li className="about-grid-info-list-item">My Sql</li>
+            <li className="about-grid-info-list-item">PostgreSQL</li>
+            <li className="about-grid-info-list-item">MongoDB</li>
+            <li className="about-grid-info-list-item">Clerk</li>
           </ul>
         </div>
         <div className="about-grid-photo">
           <div className="overlay"></div>
           <div className="overlay-border"></div>
           <div className="about-grid-photo-container">
-            <Image src="/kishan.jpeg" alt="profile" fill />
+            <Image src="/profile.png" alt="profile" fill />
           </div>
         </div>
       </div>
