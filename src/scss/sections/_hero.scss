@@ -8,8 +8,10 @@
   min-height: 60vh;
   &-title {
     color: var(--theme-color);
-    font-size: var(--tsm2);
+    font-size: var(--tlarge2);
     font-family: var(--fira-code);
+    word-spacing: 4px;
+    padding-left: 6px;
   }
   &-title-large {
     font-size: var(--tgiant);
