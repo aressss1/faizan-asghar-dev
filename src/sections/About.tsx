@@ -28,16 +28,14 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Greetings! I&apos;m Faizan, a dedicated creator deeply passionate
-            about shaping innovative digital landscapes. My venture into 
-            the realm of web development began in 2021 when I brought 
-            <span className="link">SocioMedia</span> to life—an inspiring
-            social media app crafted with the expertise of React and Node.js.
+            Greetings! I&apos;m Faizan, a dedicated creator deeply passionate about
+            shaping innovative digital landscapes. My venture into the realm
+            of web development began in 2021 when I brought <span className="link">SocioMedia</span> to life—an inspiring social media app crafted with the expertise of React and Node.js.
           </p>
           <p className="about-grid-info-text">
             Fast-forward to the present day, I&apos;ve become a maestro in crafting
-            high-quality solutions that not only exceed my clients&apos;
-            <span className="link">expectations</span> but also supercharge their growth in no time. 
+            high-quality solutions that not only exceed my clients&apos; <span className="link">
+            expectations</span> but also supercharge their <span className="link">growth</span> in no time. 
             My expertise spans front-end and back-end technologies, enabling me
             to create end-to-end solutions that excel in both form and function.
           </p>
@@ -65,7 +63,7 @@ function About() {
           <div className="overlay"></div>
           <div className="overlay-border"></div>
           <div className="about-grid-photo-container">
-            <Image src="/profile.png" alt="profile" fill />
+            <Image src="/Profile.png" alt="profile" fill />
           </div>
         </div>
       </div>
