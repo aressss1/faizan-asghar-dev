@@ -39,7 +39,7 @@ function Hero() {
           delay: 1.05,
         }}
       >
-        I code the web's future.
+        I code the web&apos;s future.
       </motion.h3>
       <motion.p
         className="hero-text"
