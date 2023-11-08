@@ -40,11 +40,6 @@ function About() {
             to create end-to-end solutions that excel in both form and function.
           </p>
           <p className="about-grid-info-text">
-           My approach is rooted in aligning technical solutions with your business
-           objectives to boost efficiency and ROI. I thrive on problem-solving, 
-           embrace challenges, and value collaborative teamwork
-          </p>
-          <p className="about-grid-info-text">
             Here are a few technologies I&apos;ve been working with recently:
           </p>
           <ul className="about-grid-info-list">
