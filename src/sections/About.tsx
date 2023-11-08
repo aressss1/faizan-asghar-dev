@@ -43,7 +43,7 @@ function About() {
           </p>
 
           <p className="about-grid-info-text">
-          My approach is rooted in aligning technical solutions with your business
+           My approach is rooted in aligning technical solutions with your business
            objectives to boost efficiency and ROI. I thrive on problem-solving, 
            embrace challenges, and value collaborative teamwork
           </p>
