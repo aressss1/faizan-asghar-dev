@@ -23,7 +23,7 @@ function Contact() {
         a project that&apos;s not just functional but also valuable.
       </p>
       <div className="contact-cta">
-        <Button link="mailto:codewithfaizi@gmail.com" text="Let&apos;s chat"  />
+        <Button link="mailto:codewithfaizi@gmail.com" classname="btn1" text="Let&apos;s chat"  />
       </div>
     </motion.div>
   );

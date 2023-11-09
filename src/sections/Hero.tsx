@@ -65,6 +65,7 @@ function Hero() {
       >
         <Button
           text="Connect with me on LinkedIn."
+          classname="btn2"
           link="https://www.linkedin.com/in/faizan-asghar-806794280/"
         />
       </motion.div>

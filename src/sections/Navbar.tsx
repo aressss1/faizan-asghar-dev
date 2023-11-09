@@ -120,7 +120,7 @@ function Navbar() {
               delay: 0.6,
             }}
           >
-            <Button text="My GitHub" link="https://github.com/aressss1" />
+            <Button text="My GitHub" classname="btn" link="https://github.com/aressss1" />
           </motion.div>
         </div>
       </div>

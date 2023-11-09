@@ -1,9 +1,9 @@
 import Link from "next/link";
 import React from "react";
 
-function Button({ text, link }: { text: string; link: string }) {
+function Button({ classname ,text, link }: { text: string; link: string; classname: string }) {
   return (
-    <Link className="btn" href={link}>
+    <Link className={classname} href={link}>
       {text}
     </Link>
   );
