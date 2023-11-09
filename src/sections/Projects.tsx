@@ -18,8 +18,6 @@ function Projects() {
         "Tailwind CSS",
         "Prisma",
         "Stripe",
-        "Clerk",
-        "PlanetScale",
         "Open AI Api",
         "Replica AI Api",
       ],
@@ -59,7 +57,6 @@ function Projects() {
         "Supabase",
         "PostgreSQL",
         "Tailwind CSS",
-        "Stripe",
       ],
       projectExternalLinks: {
         github: "https://github.com/aressss1/ecommerce-admin.git",
@@ -80,7 +77,7 @@ function Projects() {
           hidden: { opacity: 0, y: 0 },
         }}
       >
-        <h2>Some Things I’ve Built</h2>
+        <h2>Some Things I&apos;ve Built</h2>
       </motion.div>
       <div className="projects-container">
         {projectsData.map(
