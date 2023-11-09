@@ -10,6 +10,8 @@ import About from "@/sections/About";
 import Contact from "@/sections/Contact";
 import Projects from "@/sections/Projects";
 import Experience from "@/sections/Experience";
+import OtherProjects from "@/sections/OtherProjects";
+import Reviews from "@/sections/Reviews";
 
 function Index() {
   const [isLoading, setIsLoading] = useState(true);
@@ -34,8 +36,9 @@ function Index() {
           <main>
             <Hero />
             <About />
-            {/* <Experience /> */}
             <Projects />
+            <OtherProjects />
+            <Reviews />
             <Contact />
           </main>
           <Footer />
