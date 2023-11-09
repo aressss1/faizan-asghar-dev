@@ -2,35 +2,26 @@ import Link from "next/link";
 import React from "react";
 import {
   FiGithub,
-  FiInstagram,
-  FiYoutube,
   FiLinkedin,
-  FiTwitter,
 } from "react-icons/fi";
+import { SiFiverr } from "react-icons/si"
 import { motion } from "framer-motion";
 
 function SocialIcons() {
   const socialLinks = [
-    { name: "Github", icon: <FiGithub />, link: "https://www.github.com" },
-    {
-      name: "Youtube",
-      icon: <FiYoutube />,
-      link: "https://www.youtube.com/KishanSheth21/",
+    { name: "Github",
+     icon: <FiGithub />, 
+     link: "https://www.github.com/aressss1" 
     },
     {
       name: "LinkedIn",
       icon: <FiLinkedin />,
-      link: "https://www.linkedin.com/in/koolkishan/",
+      link: "https://www.linkedin.com/in/faizan-asghar-806794280",
     },
     {
-      name: "Instagram",
-      icon: <FiInstagram />,
-      link: "https://instagram.com/koolkishansheth",
-    },
-    {
-      name: "Twitter",
-      icon: <FiTwitter />,
-      link: "https://twitter.com/koolkishansheth",
+      name: "fiver",
+      icon: <SiFiverr />,
+      link: "https://www.fiverr.com/s/8Nx5A4",
     },
   ];
   return (
