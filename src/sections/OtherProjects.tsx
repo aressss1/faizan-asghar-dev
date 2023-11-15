@@ -74,9 +74,9 @@ function OtherProjects() {
             visible: { opacity: 1, y: -50 },
             hidden: { opacity: 0, y: 0 },
           }}
-          whileHover={{ 
-            scaleX: 1.2
-          }}
+          // whileHover={{ 
+            
+          // }}
           key={project.title}
           onClick={() => router.push(`${project.link}`)}
           className="op-card-inner" >
