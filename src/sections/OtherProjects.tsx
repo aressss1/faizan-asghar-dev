@@ -17,7 +17,7 @@ function OtherProjects() {
         "MySQL",
         "Prisma"
       ],
-      link: "/https://github.com/aressss1/custom-ecom-store.git",
+      link: "https://github.com/aressss1/custom-ecom-store.git",
     },
     {
       title: "Dashboard + CMS",
@@ -28,7 +28,7 @@ function OtherProjects() {
         "MySQL",
         "Prisma"
       ],
-      link: "/https://github.com/aressss1/ecommerce-admin.git",
+      link: "https://github.com/aressss1/ecommerce-admin.git",
     },
     {
       title: "AirBnb App",
@@ -39,7 +39,7 @@ function OtherProjects() {
         "MongoDB",
         "Prisma"
       ],
-      link: "/https://github.com/aressss1/airbnbb-clone.git",
+      link: "https://github.com/aressss1/airbnbb-clone.git",
     }
   ]
 
