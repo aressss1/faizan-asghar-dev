@@ -74,6 +74,8 @@ function OtherProjects() {
             visible: { opacity: 1, y: -50 },
             hidden: { opacity: 0, y: 0 },
           }}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
           key={project.title}
           onClick={() => router.push(`${project.link}`)}
           className="op-card-inner" >
@@ -102,8 +104,8 @@ function OtherProjects() {
       ))}
     </div>
 
-    <motion.div 
-      className="op-btn" 
+    <motion.div
+      className="op-btn"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
