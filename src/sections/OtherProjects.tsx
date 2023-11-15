@@ -53,7 +53,7 @@ function OtherProjects() {
             {project.title}
           </h2>
           <p className="op-card-description" >
-            {project.link}
+            {project.descripton}
           </p>
           <div className="op-card-footer" >
             {project.technology.map((tech) => (
