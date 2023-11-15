@@ -27,6 +27,7 @@ function Index() {
       <Head>
         <title>Faizan Asghar</title>
         <link rel="shortcut icon" href="/favicon.ico" />
+        <link href="/dist/output.css" rel="stylesheet" />
       </Head>
       {showContent && (
         <>
