@@ -1,5 +1,6 @@
 'use client'
 
+import { motion } from "framer-motion";
 import Button from "@/components/Button";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -46,11 +47,36 @@ function OtherProjects() {
   const router = useRouter()
 
   return <div className="op" >
-    <h2 className="op-heading" >Other Noteworthy Projects</h2>
+    <motion.h2
+      className="op-heading"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+      variants={{
+        visible: { opacity: 1, y: -50 },
+        hidden: { opacity: 0, y: 0 },
+      }}
+    >
+      Other Noteworthy Projects
+    </motion.h2>
 
-    <div className="op-card" >
+    <div
+      className="op-card"
+    >
       {otherProjecData.map((project) => (
-        <div key={project.title} onClick={() => router.push(`${project.link}`)} className="op-card-inner" >
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          variants={{
+            visible: { opacity: 1, y: -50 },
+            hidden: { opacity: 0, y: 0 },
+          }}
+          key={project.title}
+          onClick={() => router.push(`${project.link}`)}
+          className="op-card-inner" >
           <div className="op-card-top" >
             <div>
               <FiFolder className="op-card-icon-1" />
@@ -72,17 +98,27 @@ function OtherProjects() {
               <p key={tech} >{tech}</p>
             ))}
           </div>
-        </div>
+        </motion.div>
       ))}
     </div>
 
-    <div className="op-btn" >
+    <motion.div 
+      className="op-btn" 
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+      variants={{
+        visible: { opacity: 1, y: -50 },
+        hidden: { opacity: 0, y: 0 },
+      }}
+    >
       <Button
         text="See More"
         classname="btn2"
         link="https://github.com/aressss1"
       />
-    </div>
+    </motion.div>
   </div >;
 
 }
