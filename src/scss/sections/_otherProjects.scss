@@ -34,6 +34,7 @@
         &:hover {
             cursor: pointer;
         }
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 
         background-color: var(--light-navy);
     }
@@ -70,7 +71,7 @@
         font-weight: 800;
         color: var(--lightest-slate);
         transition: 0.3s ease-in-out;
-        
+
         &:hover {
             color: var(--theme-color);
         }
