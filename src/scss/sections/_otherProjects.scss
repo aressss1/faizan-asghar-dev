@@ -21,9 +21,9 @@
 
 
 
-        // @media (max-width: 1080px) {
-        //   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        // }
+        @media (max-width: 1080px) {
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        }
     }
 
     .op-card-inner {
@@ -53,6 +53,7 @@
     .op-card-icon-2 {
         height: 24px;
         width: 28px;
+        color: var(--slate);
 
         &:hover {
             color: var(--theme-color);
@@ -62,8 +63,11 @@
     .op-card-heading {
         font-size: var(--tbase);
         font-family: var(--fira-code);
-        font-weight: 300;
+        font-weight: 800;
         color: var(--lightest-slate);
+        &:hover {
+            color: var(--theme-color);
+        }
     }
 
     .op-card-description {
@@ -76,6 +80,7 @@
     .op-card-footer {
         font-size: var(--tbase);
         font-family: var(--fira-code);
+        font-weight: 300;
         color: var(--slate);
     }
 }
