@@ -31,6 +31,9 @@
         gap: 18px;
         display: flex;
         flex-direction: column;
+        &:hover {
+            cursor: pointer;
+        }
 
         background-color: var(--light-navy);
     }
@@ -80,7 +83,7 @@
     .op-card-footer {
         display: flex;
         flex-direction: row;
-        gap: 2px;
+        gap: 15px;
         font-size: var(--tsm2);
         font-family: var(--fira-code);
         font-weight: 300;

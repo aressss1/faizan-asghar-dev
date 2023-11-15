@@ -1,4 +1,7 @@
+'use client'
+
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import React from "react";
 import { FiGithub, FiFolder } from "react-icons/fi";
 
@@ -6,7 +9,7 @@ function OtherProjects() {
   const otherProjecData = [
     {
       title: "My Store",
-      descripton: "A full stack e-commerce application with different categories and filter functionality and many more",
+      descripton: "A comprehensive e-commerce platform offers varied categories and robust filtering options. It facilitates seamless navigation through diverse products and features. The application ensures an enhanced shopping experience with versatile category selection and efficient filtering mechanisms.",
       technology: [
         "NextJs",
         "Typescript",
@@ -39,12 +42,14 @@ function OtherProjects() {
     }
   ]
 
+  const router = useRouter()
+
   return <div className="op" >
     <h2 className="op-heading" >Other Noteworthy Projects</h2>
 
     <div className="op-card" >
       {otherProjecData.map((project) => (
-        <div  key={project.title} className="op-card-inner" >
+        <div  key={project.title} onClick={() => router.push(`${project.link}`)} className="op-card-inner" >
           <div className="op-card-top" >
             <div ><FiFolder className="op-card-icon-1" /></div>
             <Link href={project.link}  ><FiGithub className="op-card-icon-2" /></Link>
