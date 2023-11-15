@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 :root {
   --navy-shadow: rgba(2, 12, 27, 0.7);
