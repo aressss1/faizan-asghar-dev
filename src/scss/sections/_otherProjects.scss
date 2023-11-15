@@ -57,6 +57,7 @@
         height: 24px;
         width: 28px;
         color: var(--slate);
+        transition: 0.3s ease-in-out;
 
         &:hover {
             color: var(--theme-color);
@@ -68,6 +69,8 @@
         font-family: var(--fira-code);
         font-weight: 800;
         color: var(--lightest-slate);
+        transition: 0.3s ease-in-out;
+        
         &:hover {
             color: var(--theme-color);
         }
