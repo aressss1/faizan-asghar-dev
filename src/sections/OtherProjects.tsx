@@ -8,8 +8,8 @@ function OtherProjects() {
     <div className="op-card" >
       <div className="op-card-inner" >
         <div className="op-card-top" >
-          <div><FiFolder/></div>
-          <div><FiGithub/></div>
+          <div className="op-card-icon-1" ><FiFolder/></div>
+          <div className="op-card-icon-2" ><FiGithub/></div>
         </div>
         <h2 className="op-card-heading" >
           Lorem, ipsum dolor.

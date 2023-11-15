@@ -18,7 +18,7 @@
         grid-gap: 15px;
         position: relative;
         margin-top: 50px;
-        color: var(--light-slate);
+
 
 
         // @media (max-width: 1080px) {
@@ -31,31 +31,51 @@
         gap: 18px;
         display: flex;
         flex-direction: column;
-        
+
         background-color: var(--light-navy);
     }
+
 
     .op-card-top {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+
+    }
+
+    .op-card-icon-1 {
+        height: 40px;
+        width: 40px;
+        color: var(--theme-color);
+    }
+
+    .op-card-icon-2 {
+        height: 24px;
+        width: 28px;
+
+        &:hover {
+            color: var(--theme-color);
+        }
     }
 
     .op-card-heading {
         font-size: var(--tbase);
         font-family: var(--fira-code);
         font-weight: 300;
+        color: var(--lightest-slate);
     }
 
     .op-card-description {
         font-size: var(--tbase);
         font-family: var(--fira-code);
         font-weight: 300;
+        color: var(--slate);
     }
 
     .op-card-footer {
         font-size: var(--tbase);
         font-family: var(--fira-code);
+        color: var(--slate);
     }
 }
