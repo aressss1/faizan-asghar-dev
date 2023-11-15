@@ -75,7 +75,7 @@ function OtherProjects() {
             hidden: { opacity: 0, y: 0 },
           }}
           whileHover={{ 
-            y: 8
+            y: -5
           }}
           key={project.title}
           onClick={() => router.push(`${project.link}`)}
