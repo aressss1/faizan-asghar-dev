@@ -57,7 +57,7 @@ function OtherProjects() {
           </p>
           <div className="op-card-footer" >
             {project.technology.map((tech) => (
-              <p>{tech}</p>
+              <p key={tech} >{tech}</p>
             ))}
           </div>
         </div>
