@@ -1,5 +1,6 @@
 'use client'
 
+import Button from "@/components/Button";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React from "react";
@@ -9,7 +10,7 @@ function OtherProjects() {
   const otherProjecData = [
     {
       title: "My Store",
-      descripton: "A comprehensive e-commerce platform offers varied categories and robust filtering options. It facilitates seamless navigation through diverse products and features. The application ensures an enhanced shopping experience with versatile category selection and efficient filtering mechanisms.",
+      descripton: "A comprehensive e-commerce platform offers varied categories and robust filtering options. It facilitates seamless navigation through diverse products and features. The application ensures an enhanced shopping experience with category selection ",
       technology: [
         "NextJs",
         "Typescript",
@@ -49,10 +50,16 @@ function OtherProjects() {
 
     <div className="op-card" >
       {otherProjecData.map((project) => (
-        <div  key={project.title} onClick={() => router.push(`${project.link}`)} className="op-card-inner" >
+        <div key={project.title} onClick={() => router.push(`${project.link}`)} className="op-card-inner" >
           <div className="op-card-top" >
-            <div ><FiFolder className="op-card-icon-1" /></div>
-            <Link href={project.link}  ><FiGithub className="op-card-icon-2" /></Link>
+            <div>
+              <FiFolder className="op-card-icon-1" />
+            </div>
+            <div
+              onClick={() => router.push(`${project.link}`)}
+            >
+              <FiGithub className="op-card-icon-2" />
+            </div>
           </div>
           <h2 className="op-card-heading" >
             {project.title}
@@ -69,6 +76,13 @@ function OtherProjects() {
       ))}
     </div>
 
+    <div className="op-btn" >
+      <Button
+        text="See More"
+        classname="btn2"
+        link="https://github.com/aressss1"
+      />
+    </div>
   </div >;
 
 }
