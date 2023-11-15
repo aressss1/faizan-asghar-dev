@@ -1,6 +1,7 @@
 .op {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: var(--light-navy);
 
@@ -24,10 +25,10 @@
     }
 
     .op-card.inner {
-        padding: 10px;
+        padding: 54px;
+        gap: 18px;
         display: flex;
         flex-direction: column;
-        gap: 15px;
     }
 
     .op-card-top {
