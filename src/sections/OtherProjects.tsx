@@ -44,7 +44,7 @@ function OtherProjects() {
 
     <div className="op-card" >
       {otherProjecData.map((project) => (
-        <div className="op-card-inner" >
+        <div  key={project.title} className="op-card-inner" >
           <div className="op-card-top" >
             <div ><FiFolder className="op-card-icon-1" /></div>
             <Link href={project.link}  ><FiGithub className="op-card-icon-2" /></Link>
