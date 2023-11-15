@@ -1,4 +1,5 @@
 import React from "react";
+import { FiGithub, FiExternalLink, FiFolder } from "react-icons/fi";
 
 function OtherProjects() {
   return <div className="op" >
@@ -7,8 +8,8 @@ function OtherProjects() {
     <div className="op-card" >
       <div className="op-card-inner" >
         <div className="op-card-top" >
-          <div>folderIcon</div>
-          <div>GotoIcon</div>
+          <div><FiFolder/></div>
+          <div><FiGithub/></div>
         </div>
         <h2 className="op-card-heading" >
           Lorem, ipsum dolor.
