@@ -9,7 +9,10 @@ function Logo() {
           {/* Replace this path data with the SVG path data for the letter "F" */}
           <path
             fill="currentColor"
-            d="M 20,20 L 20,10 L 30,10 L 30,15 L 25,15 L 25,20 L 30,20 L 30,25 L 25,25 L 25,40 L 20,40 Z"
+            d="M75,5
+            l-60,0 0,90
+            M15,45
+            l50,0"
           />
         </g>
         {/* Keep the rest of the SVG elements unchanged */}
