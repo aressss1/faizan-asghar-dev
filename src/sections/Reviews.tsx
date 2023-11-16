@@ -50,6 +50,7 @@ const Reviews = () => {
                 <h2 className="main-title-h2" >Client&apos;s Review</h2>
             </div>
 
+            <div className="rev-card" >
             <Carousel
                 swipeable={false}
                 draggable={false}
@@ -68,7 +69,7 @@ const Reviews = () => {
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"
             >
-                <div className="rev-card" >
+                
 
                     {revInfo.map((rev) => (
 
@@ -111,10 +112,10 @@ const Reviews = () => {
                         </div>
 
 
-                    ))}
 
-                </div>
+                    ))}
             </Carousel>;
+                </div>
 
         </div >
     );
