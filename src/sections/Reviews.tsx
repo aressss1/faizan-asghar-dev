@@ -31,7 +31,7 @@ const Reviews = () => {
 
                 {revInfo.map((rev) => (
 
-                    <div className="review">
+                    <div key={rev.name} className="review">
 
                         <div className="rev-inner">
                             <div className="rev-inner-1" >
