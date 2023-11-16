@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FiGithub, FiExternalLink } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
 import { motion } from "framer-motion";
+
 
 function Projects() {
   const projectsData = [
@@ -61,6 +62,35 @@ function Projects() {
       },
     },
   ];
+
+  const responsiveness = [
+    {
+      desktop: {
+        breakpoint: {
+          max: 3000,
+          min: 1024
+        },
+        items: 3,
+        partialVisibilityGutter: 40
+      },
+      mobile: {
+        breakpoint: {
+          max: 464,
+          min: 0
+        },
+        items: 1,
+        partialVisibilityGutter: 30
+      },
+      tablet: {
+        breakpoint: {
+          max: 1024,
+          min: 464
+        },
+        items: 2,
+        partialVisibilityGutter: 30
+      }
+    }
+  ]
   return (
     <div className="projects" id="work">
       <motion.div
@@ -139,3 +169,5 @@ function Projects() {
 }
 
 export default Projects;
+
+
