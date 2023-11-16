@@ -14,50 +14,51 @@
 }
 
 .rev-inner {
-    align-self: stretch;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
     border-radius: 8px;
-    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    display: flex;
-    background-color: #233554;
-    position: absolute;
-    bottom: 0px;
-    padding-right: 15px;
-    margin-right: 14px;
-    padding-top: 117px;
-    margin-bottom: 13px;
+  justify-content: center;
+  gap: 10px;
+  display: flex;
+  background-color: #233554;
+  position: absolute;
+  bottom: 0;
+  padding-right: 2px;
+  margin-right: 9px;
+    margin-bottom: 18px;
+  margin-left: 9px;
 }
 
 .rev-inner-1 {
     position: relative;
+  display: flex;
+  flex-direction: column;
 }
+
 .rev-img-div {
-    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-    justify-content: center;
-    align-items: center;
-    gap: 6px;
-    display: inline-flex;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  display: inline-flex;
+  margin-bottom: 65px;
+  position: relative;
 }
 
 .rev-img {
     width: 64px;
-    height: 64px;
-    border-radius: 9999px;
-    border-width: 2px;
-    border-color: rgb(255 255 255);
+  height: 64px;
+  border-radius: 9999px;
+  border-width: 2px;
+  color: transparent;
+  position: absolute;
 }
 
 .rev-star-div {
-    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);
     justify-content: center;
     align-items: center;
     display: inline-flex;
+    color: var(--slate);
+    margin-bottom: 33px;
 }
 
 .rev-star.icon {
@@ -67,8 +68,10 @@
 }
 
 .rev-desc {
-    align-self: stretch;
     text-align: center;
+  font-weight: 300;
+  color: var(--slate);
+  margin-bottom: 30px;
     // font-size:12px;
     // line-height: 14px;
     // font-weight: 400;
@@ -77,8 +80,9 @@
 .rev-footer-div {
     flex-direction: column;
     justify-content: center;
-    text-align: center;
     display: flex;
+    color: var(--slate);
+    margin-bottom: 54px;
 }
 
 .rev-footer-name {
@@ -90,6 +94,7 @@
 
 .re-footer-from {
     text-align: center;
+    padding-top: 10px;
     // font-size:12px;
     // line-height: 14px;
     // font-weight: 800;
