@@ -1,6 +1,24 @@
 import Image from "next/image";
 import { FaStar } from "react-icons/fa";
 
+const revInfo = [
+    {
+        imageSrc: "/client-1.jpg",
+        description: "Had a perfect time working with Faizan . He completely understood my requirements and the impact it will create on my business . I will love to work with him again !",
+        name: "Thomas Hunt",
+    },
+    {
+        imageSrc: "/client-2.jpg",
+        description: "Faizan is perfect . He is very communicative and his understanding of what's necessary in order to get maximum value out of it is amazing . JOB WELL DONE",
+        name: "Gordan Fisher"
+    },
+    {
+        imageSrc: "/client-3.jpg",
+        description: "Good work ! Faizan is quite passionate and experienced . He's my go-to person if I ever need web developer in future",
+        name: "Helen Moore",
+    },
+]
+
 const Reviews = () => {
     return (
         <div className="main-rev" id="reviews">
@@ -11,39 +29,48 @@ const Reviews = () => {
 
             <div className="rev-card" >
 
-            <div className="review">
+                {revInfo.map((rev) => (
 
-                <div className="rev-inner">
-                    <div className="rev-inner-1" >
-                        <div className="rev-img-div">
-                            <Image
-                                className="rev-img"
-                                src="/client-1.png"
-                                alt="client-1"
-                            />
-                        </div>
+                    <div className="review">
 
-                        <div className="rev-star-div">
-                            <FaStar className="rev-star-icon" />
-                            <FaStar className="rev-star-icon" />
-                            <FaStar className="rev-star-icon" />
-                            <FaStar className="rev-star-icon" />
-                            <FaStar className="rev-star-icon" />
-                        </div>
+                        <div className="rev-inner">
+                            <div className="rev-inner-1" >
+                                <div className="rev-img-div">
+                                    <Image
+                                        className="rev-img"
+                                        src={rev.imageSrc}
+                                        alt="client"
+                                    />
+                                </div>
 
-                        <div className="rev-desc">Everyone&apos;s on the same page. Many of our people are not very organized naturally, so Pharps is a godsend!</div>
+                                <div className="rev-star-div">
+                                    <FaStar className="rev-star-icon" />
+                                    <FaStar className="rev-star-icon" />
+                                    <FaStar className="rev-star-icon" />
+                                    <FaStar className="rev-star-icon" />
+                                    <FaStar className="rev-star-icon" />
+                                </div>
 
-                        <div className="rev-footer-div">
+                                <div className="rev-desc">
+                                    {rev.description}
+                                </div>
 
-                            <div className="rev-footer-name">Ms. Tony Rutherford</div>
+                                <div className="rev-footer-div">
 
-                            <div className="rev-footer-from">
-                                On Fiverr
+                                    <div className="rev-footer-name">
+                                        {rev.name}
+                                    </div>
+
+                                    <div className="rev-footer-from">
+                                        On Fiverr
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+
+
+                ))}
 
             </div>
 
