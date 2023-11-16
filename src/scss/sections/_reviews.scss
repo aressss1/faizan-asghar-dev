@@ -105,31 +105,32 @@
   font-family: var(--raleway);
   color: var(--lightest-slate);
   position: relative;
+}
 
-  h2 {
-    margin-bottom: 2rem;
-    font-size: var(--tx2large);
-    font-weight: 700;
+.main-title-h2 {
+  margin-bottom: 2rem;
+  font-size: var(--tx2large);
+  font-weight: 700;
 
-    &::before {
-      counter-increment: title;
-      content: "0" counter(title) ".";
-      margin-right: 0.5rem;
-      color: var(--theme-color);
-    }
+  &::before {
+    counter-increment: title;
+    content: "0" counter(title) ".";
+    margin-right: 0.5rem;
+    color: var(--theme-color);
+  }
 
-    &::after {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 20px;
-      width: 300px;
-      height: 2px;
-      margin-left: 220px;
-      background-color: var(--lightest-navy);
-    }
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 2px;
+    margin-left: 220px;
+    background-color: var(--lightest-navy);
   }
 }
+
 
 .main-rev {
   margin: 15rem 0;

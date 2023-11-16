@@ -6,7 +6,7 @@ const Reviews = () => {
         <div className="main-rev" id="reviews">
 
             <div className="main-title">
-                <h2>What my clients say about me</h2>
+                <h2 className="main-title-h2" >What my clients say about me</h2>
             </div>
 
             <div className="rev-card" >
