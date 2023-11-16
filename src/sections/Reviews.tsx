@@ -7,16 +7,16 @@ const revInfo = [
         description: "Had a perfect time working with Faizan . He completely understood my requirements and the impact it will create on my business . I will love to work with him again !",
         name: "Thomas Hunt",
     },
-    {
-        imageSrc: "/client-1.png",
-        description: "Faizan is perfect . He is very communicative and his understanding of what's necessary in order to get maximum value out of it is amazing . JOB WELL DONE",
-        name: "Gordan Fisher"
-    },
-    {
-        imageSrc: "/client-1.png",
-        description: "Good work ! Faizan is quite passionate and experienced . He's my go-to person if I ever need web developer in future",
-        name: "Helen Moore",
-    },
+    // {
+    //     imageSrc: "/client-1.png",
+    //     description: "Faizan is perfect . He is very communicative and his understanding of what's necessary in order to get maximum value out of it is amazing . JOB WELL DONE",
+    //     name: "Gordan Fisher"
+    // },
+    // {
+    //     imageSrc: "/client-1.png",
+    //     description: "Good work ! Faizan is quite passionate and experienced . He's my go-to person if I ever need web developer in future",
+    //     name: "Helen Moore",
+    // },
 ]
 
 const Reviews = () => {
