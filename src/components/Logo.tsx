@@ -8,7 +8,7 @@ function Logo() {
     <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
       <title>Logo</title>
       <g>
-        <g id="F" transform={`translate(25, 25) scale(${scaleFactor})`}>
+        <g id="F" transform={`translate(25, 25) scale(${scaleFactor}) translate(-16, -12)`}>
           {/* Adjusted path with increased size using the scaleFactor */}
           <path
             fill="currentColor"
