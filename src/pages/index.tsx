@@ -26,7 +26,7 @@ function Index() {
     <div className="app">
       <Head>
         <title>Faizan Asghar</title>
-        <link rel="shortcut icon" href="/favicon-1.ico" />
+        <link rel="shortcut icon" href="/favicon-2.ico" />
       </Head>
       {showContent && (
         <>
