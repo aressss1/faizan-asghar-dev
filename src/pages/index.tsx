@@ -26,10 +26,7 @@ function Index() {
     <div className="app">
       <Head>
         <title>Faizan Asghar</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="40x40" href="/favicon-32x32.png" />
-        <link rel="manifest" href="/site.webmanifest" />
-
+        <link rel="shortcut icon" href="/favicon-1.ico" />
       </Head>
       {showContent && (
         <>
