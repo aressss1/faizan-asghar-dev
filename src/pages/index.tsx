@@ -27,7 +27,7 @@ function Index() {
       <Head>
         <title>Faizan Asghar</title>
         <link rel="icon"  href="/favicon.ico" sizes="any" />
-        {/* <link rel="manifest" href="/site.webmanifest" /> */}
+        <link rel="manifest" href="/site.webmanifest" />
 
       </Head>
       {showContent && (
