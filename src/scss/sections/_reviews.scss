@@ -139,3 +139,21 @@
 .rev-card {
   position: relative;
 }
+
+.carousal {
+  padding-left: 300px;
+
+  @media only screen and (max-width: 768px) {
+    padding-left: 165px;
+  } 
+
+  @media only screen and (max-width: 600px) {
+    padding-left: 50px;
+  }
+  @media only screen and (max-width: 539px) {
+    padding-left: 0px;
+  }
+
+
+
+}
