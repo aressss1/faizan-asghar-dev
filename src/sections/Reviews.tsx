@@ -53,8 +53,9 @@ const Reviews = () => {
             <div className="rev-card" >
 
                 {revInfo.map((rev) => (
-                    
+
                     <Carousel
+                        key={rev.name}
                         swipeable={false}
                         draggable={false}
                         showDots={false}
@@ -73,7 +74,7 @@ const Reviews = () => {
                         itemClass="carousel-item-padding-40-px"
                     >
 
-                        <div key={rev.name} className="review">
+                        <div className="review">
 
                             <div className="rev-inner">
                                 <div className="rev-inner-1" >
