@@ -21,7 +21,8 @@
   background-color: #233554;
   position: absolute;
   bottom: 0;
-  padding-right: 2px;
+  padding-right: 11px;
+  padding-left: 11px;
   margin-right: 9px;
   margin-bottom: 18px;
   margin-left: 9px;
@@ -70,11 +71,10 @@
   text-align: center;
   font-family: var(--fira-code);
   font-weight: 500;
-  color: var(--lightest-slate);
+  color: var(--light-slate);
   margin-bottom: 30px;
-  // font-size:12px;
-  // line-height: 14px;
-  // font-weight: 400;
+  font-size: var(--tbase);
+  line-height: 20px;
 }
 
 .rev-footer-div {
@@ -84,18 +84,18 @@
   color: var(--slate);
   margin-bottom: 26px;
   font-family: var(--fira-code);
+  font-weight: 400;
+  font-size: var(--tlarge);
 }
 
 .rev-footer-name {
   text-align: center;
-  // font-size:12px;
-  // line-height: 14px;
-  // font-weight: 800;
+  font-weight: 520;
 }
 
 .rev-footer-from {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 6px;
   // font-size:12px;
   // line-height: 14px;
   // font-weight: 800;
@@ -138,6 +138,7 @@
 
 .rev-card {
   position: relative;
+  padding-left: 35px;
 }
 
 .carousal {
@@ -176,6 +177,12 @@
     padding-left: 0px;
   }
 
+}
 
-
+.car-icons {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  cursor: pointer;
+  color: var(--theme-color);
 }

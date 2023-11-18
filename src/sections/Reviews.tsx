@@ -1,5 +1,8 @@
+import { IconProp } from "@fortawesome/fontawesome-svg-core";
+import { faChevronRight , faChevronLeft } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
-import { FaStar } from "react-icons/fa";
+import {  FaStar } from "react-icons/fa";
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
 
@@ -23,7 +26,6 @@ const Reviews = () => {
             slidesToSlide: 1 // optional, default to 1.
         }
     };
-
 
     const revInfo = [
         {
@@ -53,12 +55,29 @@ const Reviews = () => {
             <div className="rev-card" >
 
                 <Carousel
+                    arrows
                     swipeable={false}
                     draggable={false}
                     showDots={false}
                     responsive={responsive}
                     ssr={true} // means to render carousel on server-side.
                     infinite={true}
+                    customLeftArrow={
+                        <FontAwesomeIcon
+                            icon={faChevronLeft  as IconProp}
+                            size="lg"
+                            // className="absolute top-1/2 left-4 max-w-4 cursor-pointer text-primary-400"
+                            className="car-icons"
+                        />
+                    }
+                    customRightArrow={
+                        <FontAwesomeIcon
+                            icon={faChevronRight as IconProp}
+                            size="lg"
+                            // className="absolute top-1/2 right-4 max-w-4 cursor-pointer text-primary-400"
+                            className="car-icons"
+                        />
+                    }
                     // autoPlay={this.props.deviceType !== "mobile" ? true : false}
                     // autoPlaySpeed={1000}
                     keyBoardControl={true}
