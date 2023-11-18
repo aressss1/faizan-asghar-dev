@@ -143,36 +143,36 @@
 .carousal {
   padding-left: 300px;
   
-  @media only screen and (max-width: 1339) {
+  @media (max-width: 1339) {
     padding-left: 194px;
   } 
 
-  @media only screen and (max-width: 1155) {
+  @media  (max-width: 1155) {
     padding-left: 136px;
   }
 
-  @media only screen and (max-width: 811) {
+  @media  (max-width: 811) {
     padding-left: 101px;
   } 
 
-  @media only screen and (max-width: 768px) {
+  @media (max-width: 768px) {
     padding-left: 165px;
   }
 
-  @media only screen and (max-width: 698px) {
+  @media  (max-width: 698px) {
     padding-left: 103px;
   }
 
-  @media only screen and (max-width: 626px) {
+  @media  (max-width: 626px) {
     padding-left: 74px;
   } 
 
 
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     padding-left: 50px;
   }
 
-  @media only screen and (max-width: 539px) {
+  @media  (max-width: 539px) {
     padding-left: 0px;
   }
 
