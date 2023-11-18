@@ -40,7 +40,7 @@ const Reviews = () => {
             name: "Gordan Fisher"
         },
         {
-            imageSrc: "/client-1.jpg",
+            imageSrc: "/client-3.jpg",
             description: "Good work ! Faizan is quite passionate and experienced . He's my go-to person if I ever need web developer in future",
             name: "Helen Moore",
         },
