@@ -2,9 +2,11 @@ import { IconProp } from "@fortawesome/fontawesome-svg-core";
 import { faChevronRight , faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
-import {  FaStar } from "react-icons/fa";
+import {  FaMinus, FaStar } from "react-icons/fa";
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
+import { DotProps } from 'react-multi-carousel/lib/types';
+
 
 
 const Reviews = () => {
@@ -45,6 +47,17 @@ const Reviews = () => {
         },
     ]
 
+    const CustomDot = ({ index, onClick, active }: DotProps) => {
+        return (
+          <li
+            className={active ? "active" : "inactive"}
+            onClick={onClick}
+          >
+            <FaMinus />
+          </li>
+        );
+      };
+
     return (
         <div className="main-rev" id="reviews">
 
@@ -57,7 +70,7 @@ const Reviews = () => {
                 <Carousel
                     arrows
                     containerClass="container"
-                    swipeable={true}
+                    swipeable={false}
                     draggable={false}
                     showDots={false}
                     responsive={responsive}
@@ -78,12 +91,13 @@ const Reviews = () => {
                         />
                     }
                     autoPlay={responsive.tablet || responsive.tablet ? true : false}
-                    autoPlaySpeed={1000}
+                    autoPlaySpeed={2000}
                     pauseOnHover
                     keyBoardControl={true}
                     customTransition="all .5"
                     transitionDuration={500}
                     removeArrowOnDeviceType={["tablet", "mobile"]}
+                    customDot={<CustomDot />}
                     // deviceType={responsive.mobile}
                     dotListClass="custom-dot-list-style"
                     itemClass="carousel-item-padding-40-px"
