@@ -66,17 +66,17 @@ const Reviews = () => {
                     customLeftArrow={
                         <FontAwesomeIcon
                             icon={faChevronLeft  as IconProp}
-                            size="lg"
+                            size="2xl"
                             // className="absolute top-1/2 left-4 max-w-4 cursor-pointer text-primary-400"
-                            className="car-icons"
+                            className="car-icon-1"
                         />
                     }
                     customRightArrow={
                         <FontAwesomeIcon
                             icon={faChevronRight as IconProp}
-                            size="lg"
-                            // className="absolute top-1/2 right-4 max-w-4 cursor-pointer text-primary-400"
-                            className="car-icons"
+                            size="2xl"
+                            // className="absolute top-1/2 right-4 max-w-4xl cursor-pointer text-primary-400"
+                            className="car-icon-2"
                         />
                     }
                     // autoPlay={this.props.deviceType !== "mobile" ? true : false}

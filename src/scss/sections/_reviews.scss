@@ -179,10 +179,18 @@
 
 }
 
-.car-icons {
+.car-icon-1 {
   position: absolute;
   top: 50%;
   left: 1rem;
+  cursor: pointer;
+  color: var(--theme-color);
+}
+
+.car-icon-2 {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
   cursor: pointer;
   color: var(--theme-color);
 }
