@@ -105,6 +105,7 @@ const Reviews = () => {
                                             className="rev-img"
                                             src={rev.imageSrc}
                                             alt="client"
+                                            fill
                                         />
                                     </div>
 
