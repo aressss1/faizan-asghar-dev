@@ -61,7 +61,7 @@ const Reviews = () => {
                     draggable={false}
                     showDots={false}
                     responsive={responsive}
-                    ssr={true} // means to render carousel on server-side.
+                    ssr={true}
                     infinite={true}
                     customLeftArrow={
                         <FontAwesomeIcon
@@ -77,13 +77,14 @@ const Reviews = () => {
                             className="car-icon-2"
                         />
                     }
-                    autoPlay={responsive.mobile ? true : false}
+                    autoPlay={responsive.tablet || responsive.tablet ? true : false}
                     autoPlaySpeed={1000}
+                    pauseOnHover
                     keyBoardControl={true}
                     customTransition="all .5"
                     transitionDuration={500}
                     removeArrowOnDeviceType={["tablet", "mobile"]}
-                    // deviceType={this.props.deviceType}
+                    // deviceType={responsive.mobile}
                     dotListClass="custom-dot-list-style"
                     itemClass="carousel-item-padding-40-px"
                     className="carousal"
