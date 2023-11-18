@@ -97,9 +97,6 @@
 .rev-footer-from {
   text-align: center;
   padding-top: 6px;
-  // font-size:12px;
-  // line-height: 14px;
-  // font-weight: 800;
 }
 
 
@@ -128,7 +125,7 @@
         display: block;
         position: absolute;
         top: 20px;
-        width: 257px;
+        width: 322px;
         height: 2px;
         margin-left: 303px;
         background-color: var(--lightest-navy);
@@ -136,70 +133,71 @@
 
       @media screen and (max-width: 480px) {
         &::after {
-          width: 182px;
-          margin-left: 180px;
+          width: 117px;
+          margin-left: 240px;
         }
       }
     }
 
-    
+
   }
 }
-  .rev-card {
-    position: relative;
-    padding-top: 35px;
+
+.rev-card {
+  position: relative;
+  padding-top: 35px;
+}
+
+.carousal {
+  padding-left: 300px;
+
+  @media (max-width: 1339px) {
+    padding-left: 194px;
   }
 
-  .carousal {
-    padding-left: 300px;
-
-    @media (max-width: 1339px) {
-      padding-left: 194px;
-    }
-
-    @media (max-width: 1155px) {
-      padding-left: 136px;
-    }
-
-    @media (max-width: 811px) {
-      padding-left: 101px;
-    }
-
-    @media (max-width: 768px) {
-      padding-left: 165px;
-    }
-
-    @media (max-width: 698px) {
-      padding-left: 103px;
-    }
-
-    @media (max-width: 626px) {
-      padding-left: 74px;
-    }
-
-
-    @media (max-width: 600px) {
-      padding-left: 50px;
-    }
-
-    @media (max-width: 539px) {
-      padding-left: 0px;
-    }
-
+  @media (max-width: 1155px) {
+    padding-left: 136px;
   }
 
-  .car-icon-1 {
-    position: absolute;
-    top: 50%;
-    left: 1rem;
-    cursor: pointer;
-    color: var(--theme-color);
+  @media (max-width: 811px) {
+    padding-left: 101px;
   }
 
-  .car-icon-2 {
-    position: absolute;
-    top: 50%;
-    right: 1rem;
-    cursor: pointer;
-    color: var(--theme-color);
+  @media (max-width: 768px) {
+    padding-left: 165px;
   }
+
+  @media (max-width: 698px) {
+    padding-left: 103px;
+  }
+
+  @media (max-width: 626px) {
+    padding-left: 74px;
+  }
+
+
+  @media (max-width: 600px) {
+    padding-left: 50px;
+  }
+
+  @media (max-width: 539px) {
+    padding-left: 0px;
+  }
+
+}
+
+.car-icon-1 {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  cursor: pointer;
+  color: var(--theme-color);
+}
+
+.car-icon-2 {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  cursor: pointer;
+  color: var(--theme-color);
+}
