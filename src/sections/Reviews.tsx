@@ -1,10 +1,11 @@
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import { faChevronRight , faChevronLeft } from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight, faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
-import {  FaStar } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
+import { motion } from "framer-motion";
 
 
 
@@ -52,7 +53,18 @@ const Reviews = () => {
     ]
 
     return (
-        <div className="main-rev" id="reviews">
+        <motion.div
+            className="main-rev"
+            id="reviews"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            variants={{
+                visible: { opacity: 1, y: -50 },
+                hidden: { opacity: 0, y: 0 },
+            }}
+        >
 
             <div className="main-title">
                 <h2 className="main-title-h2" >Client&apos;s Review</h2>
@@ -71,7 +83,7 @@ const Reviews = () => {
                     infinite={true}
                     customLeftArrow={
                         <FontAwesomeIcon
-                            icon={faChevronLeft  as IconProp}
+                            icon={faChevronLeft as IconProp}
                             size="2xl"
                             className="car-icon-1"
                         />
@@ -140,7 +152,7 @@ const Reviews = () => {
 
             </div>
 
-        </div >
+        </motion.div>
     );
 }
 
