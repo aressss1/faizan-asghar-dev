@@ -67,7 +67,6 @@ const Reviews = () => {
                         <FontAwesomeIcon
                             icon={faChevronLeft  as IconProp}
                             size="2xl"
-                            // className="absolute top-1/2 left-4 max-w-4 cursor-pointer text-primary-400"
                             className="car-icon-1"
                         />
                     }
@@ -75,16 +74,14 @@ const Reviews = () => {
                         <FontAwesomeIcon
                             icon={faChevronRight as IconProp}
                             size="2xl"
-                            // className="absolute top-1/2 right-4 max-w-4xl cursor-pointer text-primary-400"
                             className="car-icon-2"
                         />
                     }
-                    // autoPlay={this.props.deviceType !== "mobile" ? true : false}
-                    // autoPlaySpeed={1000}
+                    autoPlay={responsive.mobile ? true : false}
+                    autoPlaySpeed={1000}
                     keyBoardControl={true}
                     customTransition="all .5"
                     transitionDuration={500}
-                    // containerClass="carousel-container"
                     removeArrowOnDeviceType={["tablet", "mobile"]}
                     // deviceType={this.props.deviceType}
                     dotListClass="custom-dot-list-style"
