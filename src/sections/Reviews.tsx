@@ -67,7 +67,7 @@ const Reviews = () => {
         >
 
             <div className="main-title">
-                <h2 className="main-title-h2" >Client&apos;s Review</h2>
+                <h2 className="main-title-h2" >Testimonials</h2>
             </div>
 
             <div className="rev-card" >
