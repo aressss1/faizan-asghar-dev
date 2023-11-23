@@ -55,7 +55,7 @@ const Reviews = () => {
     return (
         <motion.div
             className="main-rev"
-            id="reviews"
+            id="testimonials"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
