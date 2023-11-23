@@ -13,7 +13,6 @@ function About() {
     <motion.div
       className="about"
       id="about"
-      style={{ paddingTop: "65px" }}
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
