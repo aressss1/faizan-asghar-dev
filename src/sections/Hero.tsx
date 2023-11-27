@@ -64,9 +64,9 @@ function Hero() {
         }}
       >
         <Button
-          text="Connect with me on LinkedIn."
+          text="My GitHub"
           classname="btn2"
-          link="https://www.linkedin.com/in/faizan-asghar-806794280/"
+          link="https://github.com/aressss1"
         />
       </motion.div>
     </div>
