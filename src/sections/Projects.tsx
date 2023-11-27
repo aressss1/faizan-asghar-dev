@@ -48,7 +48,7 @@ function Projects() {
       projectName: "Spotify App",
       projectLink: "https://github.com/aressss1/ecommerce-admin.git",
       projectDescription:
-        "I made a Spotify Clone. This application features song uploads, Stripe integration, and sleek Tailwind design with animations. It offers responsive design, user authentication, file storage, and robust audio player capabilities. Additionally, it seamlessly handles Stripe payments and real-time server interactions, including subscription management.",
+        "I made a Spotify Clone. This application features song uploads, Stripe integration, and sleek Tailwind design with animations. It offers responsive design, user authentication, file storage, and robust audio player capabilities. Additionally, it handles Stripe payments and subscription management.",
       projectTech: [
         "NextJs",
         "Typescript",
