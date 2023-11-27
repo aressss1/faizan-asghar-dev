@@ -30,7 +30,7 @@ function Projects() {
       projectName: "Discord App",
       projectLink: "https://github.com/aressss1/discord-clone.git",
       projectDescription:
-        "I developed a Discord Clone.This messaging app offers real-time communication with Socket.io and file sharing through UploadThing. It enables message editing and deletion, ensuring dynamic conversations. Users can engage in 1:1 text, audio, and video calls and manage member roles. The platform features a user-friendly interface, infinite message loading, and secure authentication.",
+        "I developed a Discord Clone.This messaging app offers real-time communication with Socket.io and file sharing through UploadThing. It enables message editing and deletion, ensuring dynamic conversations. Users can engage in 1:1 text, audio, and video calls and manage member roles.",
       projectTech: [
         "NextJS",
         "Typescript",
@@ -48,7 +48,7 @@ function Projects() {
       projectName: "Spotify App",
       projectLink: "https://github.com/aressss1/ecommerce-admin.git",
       projectDescription:
-        "I made a Spotify Clone. This application features song uploads, Stripe integration, and sleek Tailwind design with animations. It offers responsive design, user authentication, file storage, and robust audio player capabilities. Additionally, it seamlessly handles Stripe payments, route management, and real-time server interactions, including subscription management.",
+        "I made a Spotify Clone. This application features song uploads, Stripe integration, and sleek Tailwind design with animations. It offers responsive design, user authentication, file storage, and robust audio player capabilities. Additionally, it seamlessly handles Stripe payments and real-time server interactions, including subscription management.",
       projectTech: [
         "NextJs",
         "Typescript",
