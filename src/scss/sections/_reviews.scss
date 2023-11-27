@@ -11,6 +11,14 @@
   gap: 2rem;
   background-color: var(--light-navy);
   position: relative;
+
+  @media (max-width: 398px) {
+    width: 20rem;
+  }
+
+  @media (max-width: 366px) {
+    width: 18rem;
+  }
 }
 
 .rev-inner {
@@ -168,9 +176,7 @@
 .carousal {
   padding-left: 300px;
 
-  @media (max-width: 1339px) {
-    padding-left: 194px;
-  }
+  
 
   @media (max-width: 1155px) {
     padding-left: 136px;
