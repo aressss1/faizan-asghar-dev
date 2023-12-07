@@ -32,7 +32,7 @@ const Reviews = () => {
     const revInfo = [
         {
             imageSrc: "/client-1.jpg",
-            description: "Had a perfect time working with Faizan. He completely understood my requirements and the impact it will create on my business. I will love to work with him again!",
+            description: "Had a perfect time working with Faizan. He completely understood my requirements and the impact it would have on my business. I would love to work with him again !",
             name: "Thomas Hunt",
         },
         {
