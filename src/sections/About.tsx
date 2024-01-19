@@ -28,7 +28,7 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Greetings! I&apos;m Faizan Asghar, a Talented full stack web developer. With 3 years of experience, my mission is simple: to provide <span className="link" >value-driven</span> web applications & websites that make a difference. I'm passionate about understanding your objectives and crafting tailored web applications that align perfectly with your vision.
+            Greetings! I&apos;m Faizan Asghar, a Talented full stack web developer. With 3 years of experience, my mission is simple: to provide <span className="link" >value-driven</span> web applications & websites that make a difference. I&apos;m passionate about understanding your objectives and crafting tailored web applications that align perfectly with your vision.
           </p>
           <p className="about-grid-info-text">
             I thrive when collaborating with <span className="link" >visionaries—individuals</span> who have a clear understanding of their objectives and have conducted thorough research into their needs. Your creative mindset and innovative spirit resonate with my dedication to delivering unique, purpose-driven web applications.
