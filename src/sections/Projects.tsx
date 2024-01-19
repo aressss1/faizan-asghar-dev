@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { FiGithub } from "react-icons/fi";
 import { motion } from "framer-motion";
+import Button from "@/components/Button";
 
 
 function Projects() {
@@ -164,6 +165,23 @@ function Projects() {
           }
         )}
       </div>
+      <motion.div
+        className="op-btn"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+        variants={{
+          visible: { opacity: 1, y: -50 },
+          hidden: { opacity: 0, y: 0 },
+        }}
+      >
+        <Button
+          text="See More"
+          classname="btn2"
+          link="https://github.com/aressss1"
+        />
+      </motion.div>
     </div>
   );
 }
