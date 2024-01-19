@@ -4,7 +4,7 @@ import {
   FiGithub,
   FiLinkedin,
 } from "react-icons/fi";
-import { SiFiverr } from "react-icons/si"
+import { SiFiverr, SiUpwork } from "react-icons/si"
 import { motion } from "framer-motion";
 
 function SocialIcons() {
@@ -20,8 +20,8 @@ function SocialIcons() {
     },
     {
       name: "fiver",
-      icon: <SiFiverr />,
-      link: "https://www.fiverr.com/s/8Nx5A4",
+      icon: <SiUpwork />,
+      link: "https://www.upwork.com/freelancers/~0153ab8f7cb30c77a1",
     },
   ];
   return (
