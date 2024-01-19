@@ -34,7 +34,7 @@ function Projects() {
       projectName: "Discord App",
       projectLink: "https://github.com/aressss1/discord-clone.git",
       projectDescription:
-        "I developed a Discord Clone.This messaging app offers real-time communication with Socket.io and file sharing through UploadThing. It enables message editing and deletion, ensuring dynamic conversations. Users can engage in 1:1 text, audio, and video calls and manage member roles.",
+        "I developed a Discord Clone. This messaging app offers real-time communication with Socket.io and file sharing through UploadThing. It enables message editing and deletion, ensuring dynamic conversations. Users can engage in 1:1 text, audio, and video calls and manage member roles.",
       projectTech: [
         "NextJS",
         "Typescript",
@@ -49,10 +49,10 @@ function Projects() {
     },
     {
       image: "/Project-3.png",
-      projectName: "Ecommerce Admin Dashboard + CMS",
+      projectName: "Ecomm. Admin Dashboard + CMS",
       projectLink: "https://github.com/aressss1/ecommerce-admin.git",
       projectDescription:
-        "Shadcn UI-powered Admin integrates CMS, API, and vendor management for diverse stores like  Shoe, Laptop, Suit. It enables seamless control of categories, products, filters, and billboards, generating dynamic API routes.",
+        "This versatile admin dashboard acts as a CMS, admin panel, and API generator, enabling control over multiple vendors or stores within a single platform. Users can effortlessly manage categories, products, and images, along with creating, updating, and deleting filters.",
       projectTech: [
         "NextJs",
         "Typescript",
@@ -172,7 +172,7 @@ function Projects() {
           }
         )}
       </div>
-      
+
       <motion.div
         className="op-btn"
         initial="hidden"
