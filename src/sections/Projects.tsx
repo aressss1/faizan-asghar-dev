@@ -26,7 +26,7 @@ function Projects() {
       },
     },
     {
-      image: "/project-2.png",
+      image: "/Project-2.png",
       projectName: "Discord App",
       projectLink: "https://github.com/aressss1/discord-clone.git",
       projectDescription:
