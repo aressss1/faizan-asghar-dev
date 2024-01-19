@@ -63,6 +63,7 @@ function Navbar() {
             <Logo />
           </Link>
         </motion.div>
+
         <motion.div
           className="nav-responsive-toggle"
           initial={{ opacity: 0, y: 5 }}
@@ -88,6 +89,7 @@ function Navbar() {
             />
           )}
         </motion.div>
+        
         <div
           className={`${responsiveNavVisible && "nav-responsive"} nav-items`}
         >

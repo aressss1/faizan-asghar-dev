@@ -28,30 +28,30 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Greetings! I&apos;m Faizan, a dedicated creator deeply passionate about
-            shaping innovative digital landscapes. My venture into the realm
-            of web development began in 2021 when I brought <span className="link">SocioMedia</span> to life—an inspiring social media app crafted with the expertise of React and Node.js.
+            Greetings! I&apos;m Faizan Asghar, a Talented full stack web developer. With 3 years of experience, my mission is simple: to provide <span className="link" >value-driven</span> web applications & websites that make a difference. I'm passionate about understanding your objectives and crafting tailored web applications that align perfectly with your vision.
           </p>
           <p className="about-grid-info-text">
-            Fast-forward to the present day, I&apos;ve become a maestro in crafting
-            high-quality solutions that not only exceed my clients&apos; <span className="link">
-            expectations</span> but also supercharge their <span className="link">growth</span> in no time. 
-            My expertise spans front-end and back-end technologies, enabling me
-            to create end-to-end solutions that excel in both form and function.
+            I thrive when collaborating with <span className="link" >visionaries—individuals</span> who have a clear understanding of their objectives and have conducted thorough research into their needs. Your creative mindset and innovative spirit resonate with my dedication to delivering unique, purpose-driven web applications.
+          </p>
+          <p className="about-grid-info-text">
+            Your vision guides my approach. I start by delving deep into your <span className="link" >ideas</span>, <span className="link" >plans</span>, and execution strategies for your web application. Understanding your unique value proposition and market differentiators is crucial to crafting a standout web application tailored to your <span className="link" >success</span>.
           </p>
           <p className="about-grid-info-text">
             Here are a few technologies I&apos;ve been working with recently:
           </p>
           <ul className="about-grid-info-list">
             <li className="about-grid-info-list-item">Typescript</li>
+            <li className="about-grid-info-list-item">Javascript</li>
             <li className="about-grid-info-list-item">React</li>
             <li className="about-grid-info-list-item">Next.js</li>
             <li className="about-grid-info-list-item">Tailwind CSS</li>
+            <li className="about-grid-info-list-item">Shadncn UI</li>
             <li className="about-grid-info-list-item">Prisma</li>
             <li className="about-grid-info-list-item">My Sql</li>
             <li className="about-grid-info-list-item">PostgreSQL</li>
             <li className="about-grid-info-list-item">MongoDB</li>
             <li className="about-grid-info-list-item">Clerk</li>
+            <li className="about-grid-info-list-item">Next Auth</li>
           </ul>
         </div>
         <div className="about-grid-photo">

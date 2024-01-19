@@ -51,7 +51,7 @@ function Hero() {
           delay: 1.35,
         }}
       >
-        I&apos;m a Web Developer with a passion for crafting outstanding digital experiences. My current focus is on partnering with <span className="link">agencies</span> and <span className="link" >startups</span> to fuel their growth and success. I thrive on turning ideas into web realities and helping businesses thrive in the <span className="link">digital landscape</span>
+        I&apos;m a Web Developer with a passion for crafting outstanding websites and web applications. My current focus is on partnering with <span className="link">agencies</span> to fuel their growth and success. I thrive on turning ideas into web applications & websites and helping agencies thrive in the <span className="link">digital landscape</span>
       </motion.p>
       <motion.div
         className="hero-button"

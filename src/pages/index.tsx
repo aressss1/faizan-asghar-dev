@@ -37,7 +37,7 @@ function Index() {
             <Hero />
             <About />
             <Projects />
-            <OtherProjects />
+            {/* <OtherProjects /> */}
             <Reviews />
             <Contact />
           </main>
