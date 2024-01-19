@@ -4,9 +4,12 @@ import React from "react";
 import { FiGithub } from "react-icons/fi";
 import { motion } from "framer-motion";
 import Button from "@/components/Button";
+import { useRouter } from "next/navigation";
 
 
 function Projects() {
+  const router = useRouter()
+
   const projectsData = [
     {
       image: "/Project-1.png",
@@ -46,16 +49,15 @@ function Projects() {
     },
     {
       image: "/Project-3.png",
-      projectName: "Spotify App",
+      projectName: "Ecommerce Admin Dashboard + CMS",
       projectLink: "https://github.com/aressss1/ecommerce-admin.git",
       projectDescription:
-        "I made a Spotify Clone. This application features song uploads, Stripe integration, and sleek Tailwind design with animations. It offers responsive design, user authentication, file storage, and robust audio player capabilities. Additionally, it handles Stripe payments and subscription management.",
+        "Shadcn UI-powered Admin integrates CMS, API, and vendor management for diverse stores like  Shoe, Laptop, Suit. It enables seamless control of categories, products, filters, and billboards, generating dynamic API routes.",
       projectTech: [
         "NextJs",
         "Typescript",
-        "Supabase",
-        "PostgreSQL",
-        "Tailwind CSS",
+        "MySQL",
+        "Prisma"
       ],
       projectExternalLinks: {
         github: "https://github.com/aressss1/ecommerce-admin.git",
@@ -107,6 +109,7 @@ function Projects() {
       >
         <h2>Some Things I&apos;ve Built</h2>
       </motion.div>
+
       <div className="projects-container">
         {projectsData.map(
           ({
@@ -138,7 +141,11 @@ function Projects() {
                 </div>
                 <div className="project-info">
                   <p className="project-info-overline">Featured Project</p>
-                  <h3 className="project-info-title">{projectName}</h3>
+                  <h3  
+                    onClick={() => router.push(projectExternalLinks.github)}
+                    className="project-info-title">
+                    {projectName}
+                  </h3>
                   <div className="project-info-description">
                     <p>{projectDescription}</p>
                   </div>
@@ -165,6 +172,7 @@ function Projects() {
           }
         )}
       </div>
+      
       <motion.div
         className="op-btn"
         initial="hidden"
