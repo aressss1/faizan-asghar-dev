@@ -64,40 +64,40 @@ function Projects() {
         externalLink: "",
       },
     },
-    {
-      image: "/Project-4.png",
-      projectName: "My Store - Ecomm. Store",
-      projectLink: "https://github.com/aressss1/custom-ecom-store",
-      projectDescription:
-        "Full-Stack Ecommerce Store with Stripe Integeration as a payment gateway with features like smart product preview, add to cart, add to favourites, also contain checkout page and many more.",
-      projectTech: [
-        "NextJs",
-        "Typescript",
-        "Stripe",
-        "MySQL"
-      ],
-      projectExternalLinks: {
-        github: "https://github.com/aressss1/custom-ecom-store",
-        externalLink: "",
-      },
-    },
-    {
-      image: "/Project-5.png",
-      projectName: "My Store - Ecomm. Store",
-      projectLink: "https://github.com/aressss1/sp-clone",
-      projectDescription:
-        "a Spotify-style app with sleek Tailwind design, Supabase authentication, and GitHub login. Implemented features like song upload, favorites, and advanced player with Tailwind animations. Integrate Stripe for one-time and recurring payments.",
-      projectTech: [
-        "NextJs",
-        "Typescript",
-        "Supabase",
-        "PostgreSQL"
-      ],
-      projectExternalLinks: {
-        github: "https://github.com/aressss1/sp-clone",
-        externalLink: "",
-      },
-    },
+    // {
+    //   image: "/Project-4.png",
+    //   projectName: "My Store - Ecomm. Store",
+    //   projectLink: "https://github.com/aressss1/custom-ecom-store",
+    //   projectDescription:
+    //     "Full-Stack Ecommerce Store with Stripe Integeration as a payment gateway with features like smart product preview, add to cart, add to favourites, also contain checkout page and many more.",
+    //   projectTech: [
+    //     "NextJs",
+    //     "Typescript",
+    //     "Stripe",
+    //     "MySQL"
+    //   ],
+    //   projectExternalLinks: {
+    //     github: "https://github.com/aressss1/custom-ecom-store",
+    //     externalLink: "",
+    //   },
+    // },
+    // {
+    //   image: "/Project-5.png",
+    //   projectName: "My Store - Ecomm. Store",
+    //   projectLink: "https://github.com/aressss1/sp-clone",
+    //   projectDescription:
+    //     "a Spotify-style app with sleek Tailwind design, Supabase authentication, and GitHub login. Implemented features like song upload, favorites, and advanced player with Tailwind animations. Integrate Stripe for one-time and recurring payments.",
+    //   projectTech: [
+    //     "NextJs",
+    //     "Typescript",
+    //     "Supabase",
+    //     "PostgreSQL"
+    //   ],
+    //   projectExternalLinks: {
+    //     github: "https://github.com/aressss1/sp-clone",
+    //     externalLink: "",
+    //   },
+    // },
   ];
 
   const responsiveness = [
@@ -141,7 +141,7 @@ function Projects() {
           hidden: { opacity: 0, y: 0 },
         }}
       >
-        <h2>My Work</h2>
+        <h2>Some Things I&apos;ve Built</h2>
       </motion.div>
 
       <div className="projects-container">
@@ -170,24 +170,21 @@ function Projects() {
                 <div className="project-image">
                   <div className="project-image-overlay"></div>
                   <div className="project-image-container">
-                    <Image src={image} fill alt={projectName} quality={100} className="imageClass" />
+                    <Image src={image} fill alt={projectName} quality={100}  />
                   </div>
                 </div>
                 <div className="project-info">
-                  <div className="project-header" >
                     <p className="project-info-overline">Featured Project</p>
                     <h3
                       onClick={() => router.push(projectExternalLinks.github)}
                       className="project-info-title">
                       {projectName}
                     </h3>
-                  </div>
 
                   <div className="project-info-description">
                     <p>{projectDescription}</p>
                   </div>
-                  
-                  <div className="project-footer" >
+
                     <ul className="project-info-tech-list">
                       {projectTech.map((tech) => (
                         <li className="project-info-tech-list-item" key={tech}>
@@ -205,7 +202,6 @@ function Projects() {
                         </Link>
                       </li>
                     </ul>
-                  </div>
                 </div>
               </motion.div>
             );
