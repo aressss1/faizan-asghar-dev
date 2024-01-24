@@ -49,7 +49,7 @@ function Projects() {
     },
     {
       image: "/Project-3.png",
-      projectName: "Ecomm. Admin Dashboard + CMS",
+      projectName: "Ecom. Admin Dashboard + CMS",
       projectLink: "https://github.com/aressss1/ecommerce-admin.git",
       projectDescription:
         "This versatile admin dashboard acts as a CMS, admin panel, and API generator, enabling control over multiple vendors or stores within a single platform. Users can effortlessly manage categories, products, and images, along with creating, updating, and deleting filters.",
