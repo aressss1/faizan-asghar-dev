@@ -64,40 +64,40 @@ function Projects() {
         externalLink: "",
       },
     },
-    // {
-    //   image: "/Project-4.png",
-    //   projectName: "My Store - Ecomm. Store",
-    //   projectLink: "https://github.com/aressss1/custom-ecom-store",
-    //   projectDescription:
-    //     "Full-Stack Ecommerce Store with Stripe Integeration as a payment gateway with features like smart product preview, add to cart, add to favourites, also contain checkout page and many more.",
-    //   projectTech: [
-    //     "NextJs",
-    //     "Typescript",
-    //     "Stripe",
-    //     "MySQL"
-    //   ],
-    //   projectExternalLinks: {
-    //     github: "https://github.com/aressss1/custom-ecom-store",
-    //     externalLink: "",
-    //   },
-    // },
-    // {
-    //   image: "/Project-5.png",
-    //   projectName: "My Store - Ecomm. Store",
-    //   projectLink: "https://github.com/aressss1/sp-clone",
-    //   projectDescription:
-    //     "a Spotify-style app with sleek Tailwind design, Supabase authentication, and GitHub login. Implemented features like song upload, favorites, and advanced player with Tailwind animations. Integrate Stripe for one-time and recurring payments.",
-    //   projectTech: [
-    //     "NextJs",
-    //     "Typescript",
-    //     "Supabase",
-    //     "PostgreSQL"
-    //   ],
-    //   projectExternalLinks: {
-    //     github: "https://github.com/aressss1/sp-clone",
-    //     externalLink: "",
-    //   },
-    // },
+    {
+      image: "/Project-4.png",
+      projectName: "My Store - Ecomm. Store",
+      projectLink: "https://github.com/aressss1/custom-ecom-store",
+      projectDescription:
+        "Full-Stack Ecommerce Store with Stripe Integeration as a payment gateway with features like smart product preview, add to cart, add to favourites, also contain checkout page and many more.",
+      projectTech: [
+        "NextJs",
+        "Typescript",
+        "Stripe",
+        "MySQL"
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/aressss1/custom-ecom-store",
+        externalLink: "",
+      },
+    },
+    {
+      image: "/Project-5.png",
+      projectName: "My Store - Ecomm. Store",
+      projectLink: "https://github.com/aressss1/sp-clone",
+      projectDescription:
+        "a Spotify-style app with sleek Tailwind design, Supabase authentication, and GitHub login. Implemented features like song upload, favorites, and advanced player with Tailwind animations. Integrate Stripe for one-time and recurring payments.",
+      projectTech: [
+        "NextJs",
+        "Typescript",
+        "Supabase",
+        "PostgreSQL"
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/aressss1/sp-clone",
+        externalLink: "",
+      },
+    },
   ];
 
   const responsiveness = [
