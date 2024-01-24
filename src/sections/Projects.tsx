@@ -86,7 +86,7 @@ function Projects() {
       projectName: "Spotify App",
       projectLink: "https://github.com/aressss1/sp-clone",
       projectDescription:
-        "a Spotify-style app with sleek Tailwind design, Supabase authentication, and GitHub login. Implemented features like song upload, favorites, and advanced player with Tailwind animations. Integrate Stripe for one-time and recurring payments.",
+        "Spotify app with sleek Tailwind design, Supabase authentication, and GitHub login. Implemented features like song upload, favorites, and advanced player with Tailwind animations. Integrate Stripe for one-time and recurring payments.",
       projectTech: [
         "NextJs",
         "Typescript",
