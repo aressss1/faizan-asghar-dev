@@ -175,11 +175,11 @@ function Projects() {
                 </div>
                 <div className="project-info">
                   <p className="project-info-overline">Featured Project</p>
-                  <h3  
+                  <div
                     onClick={() => router.push(projectExternalLinks.github)}
                     className="project-info-title">
                     {projectName}
-                  </h3>
+                  </div>
                   <div className="project-info-description">
                     <p>{projectDescription}</p>
                   </div>
