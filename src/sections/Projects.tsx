@@ -66,7 +66,7 @@ function Projects() {
     },
     {
       image: "/Project-4.png",
-      projectName: "My Store - Ecomm. Store",
+      projectName: "My Store - Ecommerce Store",
       projectLink: "https://github.com/aressss1/custom-ecom-store",
       projectDescription:
         "Full-Stack Ecommerce Store with Stripe Integeration as a payment gateway with features like smart product preview, add to cart, add to favourites, also contain checkout page and many more.",
@@ -83,7 +83,7 @@ function Projects() {
     },
     {
       image: "/Project-5.png",
-      projectName: "My Store - Ecomm. Store",
+      projectName: "Spotify App",
       projectLink: "https://github.com/aressss1/sp-clone",
       projectDescription:
         "a Spotify-style app with sleek Tailwind design, Supabase authentication, and GitHub login. Implemented features like song upload, favorites, and advanced player with Tailwind animations. Integrate Stripe for one-time and recurring payments.",
