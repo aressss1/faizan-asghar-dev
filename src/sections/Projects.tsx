@@ -170,37 +170,41 @@ function Projects() {
                 <div className="project-image">
                   <div className="project-image-overlay"></div>
                   <div className="project-image-container">
-                    <Image src={image} fill alt={projectName} quality={100} className="imageClass"  />
+                    <Image src={image} fill alt={projectName} quality={100} className="imageClass" />
                   </div>
                 </div>
                 <div className="project-info">
-                  <p className="project-info-overline">Featured Project</p>
-                  <h3
-                    onClick={() => router.push(projectExternalLinks.github)}
-                    className="project-info-title">
-                    {projectName}
-                  </h3>
+                  <div className="project-header" >
+                    <p className="project-info-overline">Featured Project</p>
+                    <h3
+                      onClick={() => router.push(projectExternalLinks.github)}
+                      className="project-info-title">
+                      {projectName}
+                    </h3>
+                  </div>
+
                   <div className="project-info-description">
                     <p>{projectDescription}</p>
                   </div>
+                  
                   <div className="project-footer" >
-                  <ul className="project-info-tech-list">
-                    {projectTech.map((tech) => (
-                      <li className="project-info-tech-list-item" key={tech}>
-                        {tech}
+                    <ul className="project-info-tech-list">
+                      {projectTech.map((tech) => (
+                        <li className="project-info-tech-list-item" key={tech}>
+                          {tech}
+                        </li>
+                      ))}
+                    </ul>
+                    <ul className="project-info-links">
+                      <li className="project-info-links-item">
+                        <Link
+                          href={projectExternalLinks.github}
+                          className="project-info-links-item-link"
+                        >
+                          <FiGithub />
+                        </Link>
                       </li>
-                    ))}
-                  </ul>
-                  <ul className="project-info-links">
-                    <li className="project-info-links-item">
-                      <Link
-                        href={projectExternalLinks.github}
-                        className="project-info-links-item-link"
-                      >
-                        <FiGithub />
-                      </Link>
-                    </li>
-                  </ul>
+                    </ul>
                   </div>
                 </div>
               </motion.div>
