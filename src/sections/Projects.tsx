@@ -183,6 +183,7 @@ function Projects() {
                   <div className="project-info-description">
                     <p>{projectDescription}</p>
                   </div>
+                  <div className="project-footer" >
                   <ul className="project-info-tech-list">
                     {projectTech.map((tech) => (
                       <li className="project-info-tech-list-item" key={tech}>
@@ -200,6 +201,7 @@ function Projects() {
                       </Link>
                     </li>
                   </ul>
+                  </div>
                 </div>
               </motion.div>
             );
