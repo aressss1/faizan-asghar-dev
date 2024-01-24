@@ -230,9 +230,16 @@
           }
         }
 
+        &-info {
+          &-title {
+            width: 280px;
+          }
+        }
+
         .project-info {
           width: 500px;
           height: 300px;
+          
         }
       }
     }
@@ -289,9 +296,3 @@
   }
 }
 
-.imageClass1 {
-  display: none;
-  @media screen and (max-width: 600px) {
-    display: block;
-  }
-}
