@@ -85,7 +85,6 @@
         flex-direction: column;
         align-items: flex-end;
         gap: 0.5rem;
-        justify-content: space-between;
 
         &-overline {
           color: var(--theme-color);
@@ -232,6 +231,8 @@
         }
 
         &-info {
+          justify-content: space-between;
+
           &-title {
             width: 280px;
           }
@@ -240,7 +241,7 @@
         .project-info {
           width: 500px;
           height: 300px;
-          
+
         }
       }
     }
@@ -296,4 +297,3 @@
     display: none;
   }
 }
-
