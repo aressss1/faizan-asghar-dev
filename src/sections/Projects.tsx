@@ -12,6 +12,23 @@ function Projects() {
 
   const projectsData = [
     {
+      image: "/7.png",
+      projectName: "Jotion",
+      projectLink: "https://github.com/aressss1/jotion",
+      projectDescription:
+        "Tired of Notion? Say 'HI' to Jotion. Full stack Notion Clone developed with Nextjs & Convex with features like Real-time database, Notion-style editor , Infinite children documents, Trash can & soft delete, Authentication, File upload, File deletion, File replacement, Icons for each document (changes in real-time) etc",
+      projectTech: [
+        "NextJs",
+        "Typescript",
+        "Convex",
+        "Tailwind CSS",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/aressss1/jotion",
+        externalLink: "",
+      },
+    },
+    {
       image: "/Project-1.png",
       projectName: "Genius AI",
       projectLink: "https://github.com/aressss1/saas-ai-platform.git",
@@ -81,23 +98,7 @@ function Projects() {
         externalLink: "",
       },
     },
-    {
-      image: "/Project-5.png",
-      projectName: "Spotify App",
-      projectLink: "https://github.com/aressss1/sp-clone",
-      projectDescription:
-        "Spotify app with sleek Tailwind design, Supabase authentication, and GitHub login. Implemented features like song upload, favorites, and advanced player with Tailwind animations. Integrate Stripe for one-time and recurring payments.",
-      projectTech: [
-        "NextJs",
-        "Typescript",
-        "Supabase",
-        "PostgreSQL"
-      ],
-      projectExternalLinks: {
-        github: "https://github.com/aressss1/sp-clone",
-        externalLink: "",
-      },
-    },
+    
   ];
 
   const responsiveness = [
